@@ -13,7 +13,7 @@ public:
 	vector(vector && other);
 	explicit vector(size_t n, const T & val = T());
 
-	vector& operator=(vector && other);
+	vector& operator=(vector && other); 
 	vector& operator=(const vector & other);
 	bool operator==(const vector & other);
 	bool operator!=(const vector & other);
